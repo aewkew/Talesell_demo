@@ -1,14 +1,15 @@
 <template lang="">
   <div>
     <card class="shopCard container">
-      <div class="row">
-        <b-input-group>
-          <b-form-input class="search" placeholder="search"></b-form-input>
-          <b-button> <b-icon icon="search"></b-icon></b-button>
-        </b-input-group>
-      </div>
 
       <div class="row">
+       <div class="col"> 
+          <b-input-group>
+          <b-form-input class="search" placeholder="search"></b-form-input>
+          <b-button class="but-co" > <b-icon icon="search"></b-icon></b-button>
+        </b-input-group>
+       </div>
+
         <div class="col">
           <div>
             <b-form inline>
@@ -42,7 +43,7 @@
         </div>
        
 
-        <div class="col butte">
+        <div class="col">
           <b-button v-b-modal.my-modal class="but-co">
             <b-icon icon="plus-lg"></b-icon>
           </b-button>

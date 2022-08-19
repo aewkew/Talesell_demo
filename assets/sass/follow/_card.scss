@@ -73,9 +73,24 @@
 //search_add
 
 .shopCard {
-
-  .search{
-    margin: 10;
-    border-radius: 10px ; 
+ 
+  label{
+    color: azure;
+    font-weight: $font-weight-semi;
+    margin-right: 10%;
   }
+  .search{
+  
+    border-radius: 10px ; 
+    
+  }
+  
+  .but-co{
+    background-color: #6b8beb;
+
+  }
+  .but-co:hover{
+    background-color: #fd6161;
+ }
+
 }
