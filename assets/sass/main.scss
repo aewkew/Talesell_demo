@@ -5,8 +5,11 @@
 @import "follow/variables";
 @import "follow/sidebar-main";
 @import "follow/navbars";
-@import "follow/card.scss";
-@import "follow/tables.scss";
+@import "follow/card";
+@import "follow/tables";
+
+//function
+@import "follow/add";
 
 //layout
 @import "follow/content";

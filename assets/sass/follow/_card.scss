@@ -73,6 +73,8 @@
 //search_add
 
 .shopCard {
+
+ 
  
   label{
     color: azure;
@@ -84,6 +86,7 @@
     border-radius: 10px ; 
     
   }
+ 
   
   .but-co{
     background-color: #6b8beb;
@@ -92,5 +95,30 @@
   .but-co:hover{
     background-color: #fd6161;
  }
+
+}
+
+.modal-content{
+  
+.modal-header{
+  color: $white-color;
+ 
+}
+
+.modal-body{
+  .subre{
+    text-align: center;
+  }
+}
+
+.modal-footer{
+  .btn{
+    background-color: #6b8beb;
+  }
+  .btn:hover {
+    background-color: #fd6161;
+  }
+}
+
 
 }

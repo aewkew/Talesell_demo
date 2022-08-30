@@ -25,11 +25,7 @@
           </b-form-input>
         </b-form-group>
 
-        <b-form-group
-          id="input-group-3"
-          label="Email"
-          label-for="input-3"
-        >
+        <b-form-group id="input-group-3" label="Email" label-for="input-3">
           <b-form-input
             id="input-3"
             v-model="form.email"
@@ -53,20 +49,17 @@
           </b-form-input>
         </b-form-group>
 
-        <b-button type="submit" variant="primary">Submit</b-button>
-        <b-button type="reset" variant="danger">reset</b-button>
+        <b-card class="mt-3">
+          Nickname: {{ form.nickname }} <br />
+          Fullname: {{ form.fullname }} <br />
+          Email: {{ form.email }} <br />
+          Tel.: {{ form.tel }}
+        </b-card>
+        <div class="subre">
+          <b-button type="submit" variant="primary">Submit</b-button>
+          <b-button type="reset" variant="danger">reset</b-button>
+        </div>
       </b-form>
-
-      <b-card class="mt-3" >
-     
-          Nickname: {{form.nickname}} <br>
-          Fullname: {{form.fullname}} <br>
-          Email: {{form.email}} <br>
-          Tel.: {{form.tel}}
-     
-      </b-card>
-
-
     </div>
   </b-modal>
 </template>
@@ -86,7 +79,8 @@ export default {
   methods: {
     onSubmit(event) {
       event.preventDefault();
-      alert(JSON.stringify(this.form));
+      //alert(JSON.stringify(this.form));
+      console.log(this.form);
     },
     onReset(event) {
       event.preventDefault();

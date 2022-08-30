@@ -1,10 +1,10 @@
-<template lang="">
-  <div>
-    <SeaAdd> </SeaAdd>
+<template >
+  <div class="container">
+    <searches> </searches>
 
     <div class="sale">List Product</div>
 
-    <div class="tableContrainer container">
+    <div class="tableContrainer ">
       <b-table-simple class="table">
         <b-thead>
           <b-tr>
@@ -19,7 +19,7 @@
         <b-tbody>
           <b-tr v-for="(item, i) in items" :key="i" :to="item.to">
             <b-td>{{ item.Code_Product }}</b-td>
-            <b-td>{{ item.Date }}</b-td>
+            <b-td>{{ item.Date }}</b-td> 
             <b-td>{{ item.Brand }}</b-td>
             <b-td>{{ item.Color }}</b-td>
             <b-td>{{ item.price }}</b-td>
@@ -27,16 +27,14 @@
         </b-tbody>
       </b-table-simple>
     </div>
+
   </div>
 </template>
 <script>
-import SeaAdd from "../pages/Shop/search.vue";
+import searches from "../pages/Shop/search.vue";
 export default {
   layout: "coreLayout",
-  components: {
-    SeaAdd,
-  },
-
+  components: {searches},
   data() {
     return {
       items: [

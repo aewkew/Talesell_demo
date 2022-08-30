@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+ 
   head: {
     
     title: 'Talesell',
@@ -65,7 +66,9 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
+ 
     'bootstrap-vue/nuxt',
+
   ],
 
   bootstrapVue:{

@@ -90,12 +90,11 @@
 
 <script>
 import Card from "@/components/Cards/Card.vue";
-import TableList from "../TableList.vue";
+
 import EditForm from "./EditProfileForm.vue";
 export default {
   components: {
     Card,
-    TableList,
     EditForm
 },
   data() {
