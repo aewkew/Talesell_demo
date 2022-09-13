@@ -1,10 +1,8 @@
-<template lang="">
-
-  <div>
-   
-
+<template>
+  <div class="container">
+    <div class="sale">Notifications</div>
+    
   </div>
-  
 </template>
 <script>
 import Card from "@/components/Cards/Card.vue";

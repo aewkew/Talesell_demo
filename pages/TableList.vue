@@ -1,5 +1,8 @@
 <template lang="">
-  <div class="container">
+  <div class="container"> 
+    <searchTableVue></searchTableVue>
+    <div class="sale">Table List</div>
+    <br>
     <div class="tableContrainer">
       <b-table-simple class="table">
         <b-thead>
@@ -26,7 +29,11 @@
   </div>
 </template>
 <script>
+import searchTableVue from './TableList/searchTable.vue';
 export default {
+  components:{
+    searchTableVue
+  },
   layout: "coreLayout",
 
   data() {
