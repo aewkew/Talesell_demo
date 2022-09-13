@@ -24,6 +24,7 @@
             <b-td>{{ item.Invoid }}</b-td>
           </b-tr>
         </b-tbody>
+        
       </b-table-simple>
     </div>
   </div>
