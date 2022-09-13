@@ -42,32 +42,27 @@
  
  
   .logo {
-    padding: 12px 0px;
-    margin: 0px 12px;
+    height: 60px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    text-align: center;
     
     
   
 
     .simple-text {
-      padding: $padding-small-vertical $padding-zero;
-      display: block;
+      line-height: 50px;
       font-size: $font-size-large;
-      text-align: center;
       color: #eeeeee;
       font-weight: $font-weight-bold;
-      line-height: 28px;
-      align-items: left; 
-      //border-bottom: 1px solid $medium-gray  ;
-      box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
       
       .logo-img {
         width: 36px;
         display: inline-block;
         height: 34px;
         margin-left: 0px;
-        margin-right: 10px;
+        margin-right: 0px;
         text-align: center;
-        margin-bottom: 7px;
+        margin-bottom: 0px;
 
         img {
           max-width: 32px;
@@ -83,6 +78,7 @@
     .nav-item {
       width: 100%;
       margin-left: 22px;
+      margin-bottom: 1px;
       
       .nav-link {
         color: $medium-gray;
@@ -91,6 +87,7 @@
         padding-right: 25px;
         background-color: #2f5be0;
         border-radius: 8px;
+        height: 60px;
 
       }
 
@@ -106,20 +103,19 @@
       }
     }
        
-    p {
-      margin: 0;
-      line-height: 30px;
-      font-size: 15px;
-      font-weight: 600;
-      text-transform: uppercase;
+    a {
+        line-height: 45px;
+        font-size: 20px;
+        font-weight: 340;
+        text-transform: uppercase;
     }
     
-    .icon {
+    .b-icon {
       font-size: 45px;
       float: left;
       margin-right: 24px;
-      line-height: 30px;
-      width: 30px;
+      line-height: 50px;
+      width: 24px;
       text-align: center;
     }
 
