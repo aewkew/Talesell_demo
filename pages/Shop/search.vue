@@ -1,18 +1,17 @@
 <template>
   <div>
     <card class="shopCard container">
-
       <div class="row">
-        <div class="col-4">
+        <div class="col-3">
           <b-input-group>
             <b-form-input class="search" placeholder="search"></b-form-input>
             <b-button class="but-co"> <b-icon icon="search"></b-icon></b-button>
           </b-input-group>
         </div>
 
-        <div  class="col-3">
-          <div  >
-            <b-form inline >
+        <div class="col-3">
+          <div>
+            <b-form inline>
               <label> Brands </label>
               <b-form-group id="input-group-2">
                 <b-form-select v-model="selected" :options="brands">
@@ -26,18 +25,32 @@
           <div>
             <b-form inline>
               <label> Colors </label>
-               <b-form-group id="input-group-2"  label-for="input-2">
-            <b-form-select id="input-2" v-model="selected2" :options="colors"> </b-form-select>
-        </b-form-group>
+              <b-form-group id="input-group-2" label-for="input-2">
+                <b-form-select
+                  id="input-2"
+                  v-model="selected2"
+                  :options="colors"
+                >
+                </b-form-select>
+              </b-form-group>
             </b-form>
           </div>
         </div>
 
-        <div class="col-2">
+        <div class="col-1">
           <b-button v-b-modal.my-modal class="but-co">
             <b-icon icon="plus-lg" class="icon"></b-icon>
           </b-button>
           <Addsh></Addsh>
+        </div>
+
+        <div class="col-2 ">
+          <a href="addinvoice"> 
+          <b-button class="but-co">
+            <b-icon icon="cart4"> </b-icon>
+            <b-badge variant="light">4</b-badge>
+          </b-button>
+        </a>
         </div>
       </div>
     </card>
@@ -48,6 +61,7 @@
 import Card from "@/components/Cards/Card.vue";
 import Addsh from "../Shop/add.vue";
 export default {
+  
   components: {
     Card,
     Addsh,

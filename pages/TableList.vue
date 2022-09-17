@@ -21,7 +21,7 @@
             <b-td>{{ item.Customer }}</b-td>
             <b-td>{{ item.tel }}</b-td>
             <b-td>{{ item.employee }}</b-td>
-            <b-td> <a  href="invoice"> {{ item.Invoid }} </a> </b-td>
+            <b-td> <a  href="hisinvoice"> {{ item.Invoid }} </a> </b-td>
           </b-tr>
         </b-tbody>
         

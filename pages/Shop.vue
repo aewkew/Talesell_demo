@@ -13,6 +13,7 @@
             <b-th> Brand </b-th>
             <b-th> Color </b-th>
             <b-th> price </b-th>
+            <b-th> Add </b-th>
           </b-tr>
         </b-thead>
 
@@ -23,6 +24,7 @@
             <b-td>{{ item.Brand }}</b-td>
             <b-td>{{ item.Color }}</b-td>
             <b-td>{{ item.price }}</b-td>
+            <b-td> </b-td>
           </b-tr>
         </b-tbody>
       </b-table-simple>
