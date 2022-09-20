@@ -5,7 +5,7 @@
     <div class="sale">List Product</div>
 
     <div class="tableContrainer ">
-      <b-table-simple class="table">
+      <b-table-simple class="table shopCard">
         <b-thead>
           <b-tr>
             <b-th> Code product </b-th>
@@ -24,7 +24,7 @@
             <b-td>{{ item.Brand }}</b-td>
             <b-td>{{ item.Color }}</b-td>
             <b-td>{{ item.price }}</b-td>
-            <b-td> </b-td>
+            <b-td> <b-button class="but-co"  size="sm" >Add</b-button> </b-td>
           </b-tr>
         </b-tbody>
       </b-table-simple>

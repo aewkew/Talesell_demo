@@ -17,6 +17,10 @@
         <b-icon  icon="person-circle"></b-icon>
         UserProfile</b-nav-item
       >
+      <b-nav-item to="../invoice">
+        <b-icon  icon="file-earmark"></b-icon>
+        Invoice</b-nav-item
+      >
     </b-nav>
   </nav>
 </template>
