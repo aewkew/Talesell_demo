@@ -1,6 +1,11 @@
 <template>
   <div class="wrapper">
-    <Sidebar></Sidebar>
+    <Sidebar>
+       
+      
+      
+
+    </Sidebar>
 
     <div class="main-panel">
       <TopNavbar></TopNavbar>

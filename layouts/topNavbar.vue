@@ -1,4 +1,5 @@
 <template>
+
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand">Dashboard</a>
@@ -10,7 +11,6 @@
             <template #button-content>
               <em>
                 <img class="avatar" src="@/assets/img/face/face.jpg"/>
-                
               </em>
             </template>
 
@@ -21,10 +21,11 @@
       </div>
     </div>
   </nav>
+
 </template>
 
 <script>
 export default {};
 </script>
 
-<style lang=""></style>
+<style> </style>

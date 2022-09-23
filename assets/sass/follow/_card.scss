@@ -7,7 +7,8 @@
   z-index: 1;
   border: none;
   background-color: #2f5be0;
-
+  text-align: center;
+ 
   .card-image {
     width: 100%;
     overflow: hidden;
@@ -73,7 +74,10 @@
 //search_add
 
 .shopCard {
-
+  col{
+    align-items: center;
+    text-align: center;
+  }
  
  
   label{
@@ -86,7 +90,6 @@
     border-radius: 10px ; 
     
   }
- 
   
   .but-co{
     background-color: #6b8beb;
@@ -95,6 +98,7 @@
   .but-co:hover{
     background-color: #fd6161;
  }
+
 
 }
 
